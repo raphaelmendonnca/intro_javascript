@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="PT_BR">
+
+    <head>
+        <title>Dicas de Marketing</title>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+
+    <body onload="load()">
+
+        <h1>Marketing Digital do 0 ao Avançado</h1>
+        <p>Você é:</p>
+        <select onchange="change(this)">
+            <option value="CPF">Pessoa Física</option>
+            <option value="CNPJ">Pessoa Jurídica</option>
+        </select>
+        <button type="button" onclick="afterClick()">QUERO RECEBER MEU PDF GRÁTIS</button>
+        <p id="after-click" onclick="redirect()"></p>
+        <p onmouseover="cupomShow(this)" onmouseout="cupomHidden(this)">Cupom 30% OFF</p>
+
+    </body>
+
+</html>
